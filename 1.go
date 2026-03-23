@@ -5,10 +5,6 @@ import (
 	"math/rand"
 )
 
-func main() {
-	Challenge_1_Switches()
-}
-
 func Saying_Hello() {
 	var name string
 	fmt.Print("What is your name? ")
@@ -16,7 +12,7 @@ func Saying_Hello() {
 	fmt.Printf("Hello, %s, nice to meet you!", name)
 }
 
-func Challenge_1() {
+func challenge_1() {
 	var name string
 	fmt.Print("What is your name? ")
 	fmt.Scan(&name)
@@ -38,7 +34,7 @@ func Challenge_1() {
 	}
 }
 
-func Challenge_1_Switches() {
+func challenge_1_Switches() {
 	var name string
 	fmt.Print("What is your name? ")
 	fmt.Scan(&name)
