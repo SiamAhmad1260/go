@@ -5,10 +5,6 @@ import (
 	"unicode/utf8"
 )
 
-func main() {
-	Challenge_1()
-}
-
 func CountNumberOfCharactors() {
 	var str string
 	fmt.Print("what is the string input? ")
