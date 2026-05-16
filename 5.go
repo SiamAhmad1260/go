@@ -38,6 +38,8 @@ func challenge5() {
 
 	if err1 != nil || err2 != nil {
 		fmt.Println("Please input a number")
+	} else if fstNew < 0 || sndNew < 0 {
+		fmt.Println("No negetive number is accepted")
 	} else {
 		fmt.Printf("%v + %v = %v\n%v - %v = %v", fstNew, sndNew, plus, fstNew, sndNew, minus)
 	}

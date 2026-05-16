@@ -7,10 +7,6 @@ import (
 	"strings"
 )
 
-func main() {
-	Mad_lib()
-}
-
 func Mad_lib() {
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Print("What is your name? ")
